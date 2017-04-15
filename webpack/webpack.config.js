@@ -37,7 +37,7 @@ module.exports = () => {
     devtool: !isProd ? 'source-map' : false,
 
     devServer: {
-      port: 9000,
+      port: 8080,
       contentBase: path.join(__dirname, '../dist'),
       historyApiFallback: true,
       stats: {
