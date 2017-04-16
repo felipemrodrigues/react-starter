@@ -23,13 +23,13 @@ $ npm run build
 $ npm run dev
 ```
 
+Runs application in the browser (http://localhost:8080).
+
 #### test
 
 ```
 $ npm run test
 ```
-
-Runs application in the browser (http://localhost:8080).
 
 ## Features
 
