@@ -1,6 +1,6 @@
 # react-bootstrap
 
-React bootstrap is a bootstrap including Webpack, React, Jest and Redux
+React bootstrap includes Webpack, React, Jest and Redux
 
 ## Install
 
@@ -33,4 +33,4 @@ $ npm run test
 
 ## Features
 
-* ES2015 (ES6) and ES2016 (ES7) support
+* ES2015 & ES2016 support
