@@ -5,8 +5,8 @@ React bootstrap includes Webpack, React, Jest and Redux
 ## Install
 
 ```
-git clone https://github.com/felipemrodrigues/react-bootstrap
-npm install
+$ git clone https://github.com/felipemrodrigues/react-bootstrap
+$ npm install
 ```
 
 ## Commands
