@@ -2,15 +2,6 @@ module.exports = config => {
   config.module = {
     rules: [
       {
-        enforce: "pre",
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "eslint-loader",
-        options: {
-          // eslint options (if necessary) 
-        }
-      },
-      {
         test: /\.(js|jsx)$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
