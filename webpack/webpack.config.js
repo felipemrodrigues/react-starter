@@ -1,7 +1,7 @@
 const path = require('path');
 
-const plugins = require('./plugins');
 const loaders = require('./loaders');
+const plugins = require('./plugins'); 
 
 const envUtils = {
   isProd: process.env.NODE_ENV === 'production',
@@ -43,7 +43,7 @@ module.exports = () => {
       stats: {
         children: false
       }
-    }
+    },
   };
 
   config = loaders(config, envUtils);
