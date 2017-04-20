@@ -1,6 +1,6 @@
 # react-starter
 
-React bootstrap includes Webpack, React, Jest and Redux
+React starter includes Webpack, React, Jest and Redux
 
 ## Install
 
@@ -34,3 +34,4 @@ $ npm run test
 ## Features
 
 * ES2015 & ES2016 support
+* EsLint
