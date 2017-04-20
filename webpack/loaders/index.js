@@ -5,10 +5,7 @@ module.exports = config => {
         enforce: "pre",
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: "eslint-loader",
-        options: {
-          // eslint options (if necessary) 
-        }
+        loader: "eslint-loader"
       },
       {
         test: /\.(js|jsx)$/,
