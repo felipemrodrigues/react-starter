@@ -1,4 +1,4 @@
-# react-bootstrap
+# react-starter
 
 React bootstrap includes Webpack, React, Jest and Redux
 
