@@ -1,7 +1,7 @@
 {
-  "name": "react-bootstrap",
+  "name": "react-starter",
   "version": "0.0.1",
-  "description": "React bootstrap - (React, Webpack, Jest, Redux)",
+  "description": "React starter",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server --config webpack/webpack.config",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/felipemrodrigues/react-bootstrap.git"
+    "url": "git+https://github.com/felipemrodrigues/react-starter.git"
   },
   "keywords": [
     "react",
@@ -26,9 +26,9 @@
   "author": "Felipe Rodrigues",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/felipemrodrigues/react-bootstrap/issues"
+    "url": "https://github.com/felipemrodrigues/react-starter/issues"
   },
-  "homepage": "https://github.com/felipemrodrigues/react-bootstrap#readme",
+  "homepage": "https://github.com/felipemrodrigues/react-starter#readme",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.2",
