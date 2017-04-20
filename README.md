@@ -35,3 +35,4 @@ $ npm run test
 
 * ES2015 & ES2016 support
 * EsLint
+* Jest
