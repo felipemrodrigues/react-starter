@@ -1,11 +1,11 @@
 # react-starter
 
-React starter includes Webpack, React, Jest and Redux
+React starter includes Webpack, React and some other tools and features.
 
 ## Install
 
 ```
-$ git clone https://github.com/felipemrodrigues/react-bootstrap
+$ git clone https://github.com/felipemrodrigues/react-starter
 $ npm install
 ```
 
@@ -37,10 +37,12 @@ $ npm run test
 $ npm run lint
 ```
 
-EsLint also run with npm run dev automatically.
+Eslint also runs through webpack.
 
 ## Features
 
 * ES2015 & ES2016 support
-* EsLint
+* Eslint
 * Jest
+* EditorConfig
+* Redux
