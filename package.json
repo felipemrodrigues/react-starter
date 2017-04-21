@@ -7,7 +7,8 @@
     "dev": "NODE_ENV=development webpack-dev-server --config webpack/webpack.config",
     "build": "rm -Rf dist/* | NODE_ENV=production webpack -p --config webpack/webpack.config",
     "build-analyzer": "ANALYZER=true npm run build",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint app/scripts"
   },
   "repository": {
     "type": "git",

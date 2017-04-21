@@ -31,6 +31,14 @@ Runs application in the browser (http://localhost:8080).
 $ npm run test
 ```
 
+#### lint
+
+```
+$ npm run lint
+```
+
+EsLint also run with npm run dev automatically.
+
 ## Features
 
 * ES2015 & ES2016 support
