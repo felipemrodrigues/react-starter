@@ -9,6 +9,8 @@ $ git clone https://github.com/felipemrodrigues/react-starter
 $ npm install
 ```
 
+This assumes you are using npm as your package manager.
+
 ## Commands
 
 #### build
