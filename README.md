@@ -48,3 +48,4 @@ Eslint also runs through webpack.
 * Jest
 * EditorConfig
 * Redux
+* Router
