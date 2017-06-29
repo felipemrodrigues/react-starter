@@ -1,3 +1,5 @@
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+
 module.exports = config => {
   config.module = {
     rules: [
@@ -28,6 +30,11 @@ module.exports = config => {
             'transform-export-extensions'
           ]
         }
+      },
+      {
+        test: /\.scss$/,
+        exclude: /node_modules/,
+        loader: ExtractTextPlugin.extract({ fallback: 'style-loader?sourceMap=true', use: 'css-loader?sourceMap=true!sass-loader' })
       }
     ]
   };

@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 const uglifyConfig = require('./uglify.config');
 
@@ -10,6 +11,10 @@ module.exports = (config, { isProd, isAnalyzer }) => {
       template: './app/markup/index.html'
     })
   ];
+
+  config.plugins.push(
+    new ExtractTextPlugin({ filename: 'default.css', allChunks: true })
+  );
 
   if (isProd) {
     config.plugins.push(
