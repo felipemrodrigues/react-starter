@@ -13,7 +13,7 @@ module.exports = (config, { isProd, isAnalyzer }) => {
   ];
 
   config.plugins.push(
-    new ExtractTextPlugin({ filename: 'default.css', allChunks: true })
+    new ExtractTextPlugin({ filename: 'styles/default.css', allChunks: true })
   );
 
   if (isProd) {
