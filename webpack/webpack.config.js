@@ -1,7 +1,7 @@
 const path = require('path');
 
 const loaders = require('./loaders');
-const plugins = require('./plugins'); 
+const plugins = require('./plugins');
 
 const envUtils = {
   isProd: process.env.NODE_ENV === 'production',
@@ -13,7 +13,7 @@ module.exports = () => {
 
   let config = {
     entry: {
-      app: './app/scripts/index.js'
+      app: ['./app/scripts/index.js', './app/styles/apps/home.scss']
     },
 
     output: {
@@ -43,7 +43,7 @@ module.exports = () => {
       stats: {
         children: false
       }
-    },
+    }
   };
 
   config = loaders(config, envUtils);
