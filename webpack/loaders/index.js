@@ -35,6 +35,10 @@ module.exports = config => {
         test: /\.scss$/,
         exclude: /node_modules/,
         loader: ExtractTextPlugin.extract({ fallback: 'style-loader?sourceMap=true', use: 'css-loader?sourceMap=true!sass-loader' })
+      },
+      {
+        test: /\.(jpe?g|gif|png|svg|woff|ttf|)$/,
+        loader: "file-loader"
       }
     ]
   };
