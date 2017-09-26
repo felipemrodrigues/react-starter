@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "React starter",
   "main": "index.js",
+  "engines": {
+    "node": ">= 7.0"
+  },
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server --config webpack/webpack.config",
     "build": "rm -Rf dist/* | NODE_ENV=production webpack -p --config webpack/webpack.config",
