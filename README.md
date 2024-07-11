@@ -1,3 +1,5 @@
+NOT MAINTAINED
+
 # react-starter
 
 React starter includes Webpack, React and some other tools and features.
